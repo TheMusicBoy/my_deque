@@ -8,4 +8,4 @@ set(SRC
 
 add_library(deque-lib ${SRC})
 target_include_directories(deque-lib PUBLIC ${INCROOT})
-set_target_properties(deque-lib PROPERTY LINKER_LANGUAGE CXX)
+set_target_properties(deque-lib PROPERTIES LINKER_LANGUAGE CXX)
