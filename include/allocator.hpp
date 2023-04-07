@@ -50,7 +50,6 @@ class allocator {
       return static_cast<_Ty*>(::operator new(__n * sizeof(_Ty)));
    }
 
-
    void deallocate(pointer __ptr, size_type) TMB_NOEXCEPT {
       ::operator delete(__ptr);
    }
