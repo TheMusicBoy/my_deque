@@ -3,6 +3,7 @@ set(SRCROOT ${PROJECT_SOURCE_DIR}/src/)
 
 set(SRC
     ${INCROOT}/values.hpp
+    ${INCROOT}/allocator.hpp
 )
 
 add_library(deque-lib ${SRC})
