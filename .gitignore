@@ -1,0 +1,23 @@
+# Cmake build files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Common build directories
+build*/
+
+# Visual Studio work directory
+.vs/
+# Visual Studio build directory
+out/
+
+# Visual Studio Code
+.vscode/
+.cache/
+
+# CLion work directory
+.idea/
+
+# CLion build directories
+cmake-build-*/
