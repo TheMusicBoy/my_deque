@@ -2,7 +2,7 @@ set(INCROOT ${PROJECT_SOURCE_DIR}/include/)
 set(SRCROOT ${PROJECT_SOURCE_DIR}/src/)
 
 set(SRC
-
+    ${INCROOT}/values.hpp
 )
 
 add_library(deque-lib ${SRC})
